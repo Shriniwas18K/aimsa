@@ -1,0 +1,103 @@
+/*  android css  */
+@media screen and (max-width:580px){
+    .homepagesections{
+        width: 100dvw;
+        padding: 5dvw;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+#banner img{
+    height: 50dvh;
+    width: 50dvh;
+    animation: 1s linear bannerimganimandr;
+}
+@keyframes bannerimganimandr {
+    0%{
+        transform: translateX(+50dvh);
+        opacity: 0;
+    }
+}
+#banner{
+    display: flex;
+    flex-flow: column wrap;
+    background: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    line-height: 0.7cm;
+}
+#banner #description{
+    animation: linear 1s bannerdescrandr;
+}
+@keyframes bannerdescrandr {
+    0%{
+        transform: translateY(+50dvh);
+        opacity: 0;
+    }
+}
+#faculties{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    margin-top: 2dvh;
+    margin-bottom: 2dvh;
+    background: whitesmoke;
+}
+#faculties img{
+    height: 30dvw;
+    width: 30dvw;
+    border-radius: 100dvh;
+    border: 2dvh rgb(34, 97, 255) double;
+}
+#faculties figure{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    padding: 5dvw;
+    margin: 1dvh 0dvh 1dvh 0dvh;
+    border: 1dvh solid white;
+}
+#commitee{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 2dvh 0dvh 2dvh 0dvh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2dvh;
+    margin-bottom: 2dvh;
+    background: whitesmoke;
+}
+#commitee img{
+    height: 40dvh;
+    width: 40dvh;
+    border: 3dvh double dodgerblue;
+    border-radius: 100dvh;
+}
+#commitee figure {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5dvw;
+    margin: 1dvh 0dvh 1dvh 0dvh;
+    border: 1dvh solid white;
+}
+/* animation classes of fade in */
+.fade-in{
+    animation: fadein 1s ease;
+}
+@keyframes fadein {
+    0%{
+        transform: translateX(-100dvw);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0dvw);
+        opacity: 100;
+    }
+}
+}
