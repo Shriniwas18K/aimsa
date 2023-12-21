@@ -11,18 +11,18 @@
     color: white;
 }
 .teamcard img{
-    height: 30dvh;
-    width: 30dvh;
-    border-radius: 100dvh;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 100vh;
 }
 .teamcard{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin: 1dvh;
-    width:80dvw;
-    height: 80dvh;
+    margin: 1vh;
+    width:80vw;
+    height: 80vh;
     background: rgb(35, 35, 35);
     border: none;
     outline: none;
@@ -33,7 +33,7 @@
     text-decoration: none;
     display: flex;
     justify-content: space-evenly;
-    width: 80dvw;
+    width: 80vw;
 }
 .teamcard-links img{
     background: transparent;
@@ -43,34 +43,34 @@
 }
 .teamcard:focus{
     position: relative;
-    padding-top:50dvh ;
+    padding-top:50vh ;
 }
 .teamcard:focus .teamcardprofileimg{
-    border: 5dvh double white;
-    height: 35dvh;
-    width:35dvh;
+    border: 5vh double white;
+    height: 35vh;
+    width:35vh;
     position: absolute;
-    top:10dvh;
+    top:10vh;
     transition: all 0.5s linear;
 }
 .teamcard:focus span{
-    height: 50dvh;
+    height: 50vh;
     background: dodgerblue;
-    width: 80dvw;
+    width: 80vw;
     position: absolute;
-    border-radius: 1dvh;
+    border-radius: 1vh;
     top: 0;
     animation: cardanimandr 1s linear;
 }
 @keyframes cardanimandr {
     0%{
-        transform: translateY(-50dvh);
+        transform: translateY(-50vh);
     }
 }
 .teamcard:focus .teamcard-links{
     background: dodgerblue;
-    border-radius: 1dvh;
-    padding: 1dvh;
+    border-radius: 1vh;
+    padding: 1vh;
     transition: all 0.5s linear;
 }
 }

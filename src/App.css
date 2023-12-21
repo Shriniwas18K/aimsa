@@ -11,12 +11,12 @@
     /* navigation button */
     #headernav{
         position: fixed;
-        top: 4dvh;
-        left: 4dvh;
+        top: 4vh;
+        left: 4vh;
         z-index: 1000;
     }
     #headernav button{
-        width:15dvw;
+        width:15vw;
         font-size: x-large;
         border: none;
         outline: none;
@@ -42,14 +42,14 @@
     #menunavbar #images{
         display: grid;
         grid-template-columns: 0.5fr 0.5fr;
-        width: 30dvh;
+        width: 30vh;
     }
     #menunavbar #images img{
-        height: 15dvh;
-        width: 15dvh;
+        height: 15vh;
+        width: 15vh;
     }
     #menunavbar button{
-        width:40dvw;
+        width:40vw;
         height: 1cm;
         border: none;
         outline:none;
@@ -59,8 +59,8 @@
         background: inherit;
     }
     #menunavbar.visible{
-        left:0dvw;
-        padding:0dvh 15dvh 10dvh 5dvh;
+        left:0vw;
+        padding:0vh 15vh 10vh 5vh;
         background: transparent;
         backdrop-filter: blur(5px);
     }
@@ -69,23 +69,23 @@
         top:0;
         left:0;
         margin:0;
-        width:100dvw;
+        width:100vw;
     } 
     /* footer */
     footer{
-        width:100dvw;
+        width:100vw;
         background: #000;
         display: flex;
         flex-flow: column wrap;
         justify-content: space-evenly;
         color:white;
-        padding: 10dvw;
+        padding: 10vw;
         align-items: center;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     footer article{
-        width: 80dvw;
-        margin: 1dvw 0dvw 1dvw 0dvw;
+        width: 80vw;
+        margin: 1vw 0vw 1vw 0vw;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
@@ -95,14 +95,14 @@
         grid-template-columns: 0.5fr 0.5fr;
     }
     footer .top a img{
-        height: 40dvw;
-        width:40dvw;
+        height: 40vw;
+        width:40vw;
     }
     footer .social-icons{
         flex-flow: row wrap;
         justify-content: space-evenly;
     }
     footer .social-icons img{
-        height: 10dvw;
+        height: 10vw;
     }
 }
