@@ -6,7 +6,7 @@
 /* android css */
 @media screen and (max-width:580px) {
     *{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     /* navigation button */
     #headernav{
