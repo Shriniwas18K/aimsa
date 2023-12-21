@@ -16,7 +16,6 @@ export default function App() {
       setBtnChar('☰');
     }
   };
-
   return (
     <>
       <header id="headernav">
