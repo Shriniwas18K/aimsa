@@ -40,11 +40,11 @@ export default function App() {
       </nav>
       <section id="main">
         {currentPage === 'HOME' ?
-         <Suspense fallback={<section>loading</section>}><Home /></Suspense>:
+         <Suspense fallback={<section className='loading-screen'>loading</section>}><Home /></Suspense>:
           currentPage === 'TEAM' ? 
-          <Suspense fallback={<section>loading</section>}><Team /></Suspense> :
+          <Suspense fallback={<section className='loading-screen'>loading</section>}><Team /></Suspense> :
             currentPage === 'EVENTS' ? 
-            <Suspense fallback={<section>loading</section>}><Events /></Suspense>: null
+            <Suspense fallback={<section className='loading-screen'>loading</section>}><Events /></Suspense>: null
         }
       </section>
       <Footer />
