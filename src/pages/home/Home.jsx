@@ -53,14 +53,14 @@ export default function Home(){
                 <h2>Our Mentors</h2>
                 <article id="faculties" ref={facultiesRef}>
                     <figure>
-                        <img src="./homepage/HOD.jpg" alt="HODimg" />
+                        <img src="./homepage/HOD.jpg" alt="HODimg" loading="lazy"/>
                         <figcaption>
                             <h3>Dr. Anuradha Thakare</h3>
                             <h4>Head of Department <br />CSE(AIML)</h4>
                         </figcaption>
                     </figure>
                     <figure>
-                        <img src="./homepage/SDW.jpg" alt="SDWimg" />
+                        <img src="./homepage/SDW.jpg" alt="SDWimg" loading="lazy"/>
                         <h3>Prof. Pallavi Dhade</h3>
                         <h4>SDW Co-ordinator<br />CSE(AIML)</h4>
                     </figure>
@@ -68,7 +68,7 @@ export default function Home(){
                 <h2>Our Heads</h2>
                 <article id="commitee" >
                     <figure ref={atharvaRef}>
-                        <img src="./homepage/atharva_joshi_president.png" alt="president" />
+                        <img src="./homepage/atharva_joshi_president.png" alt="president" loading='lazy' />
                         <figcaption>
                             <h2>Atharva Joshi</h2>
                             <h4>President</h4>
@@ -91,7 +91,7 @@ export default function Home(){
                         </figcaption>
                     </figure>
                     <figure ref={parthRef}>
-                        <img src="./homepage/parth_singhal_vice_president.png" alt="vice-president" />
+                        <img src="./homepage/parth_singhal_vice_president.png" alt="vice-president" loading='lazy' />
                         <h2>Parth Singhal</h2>
                         <h4>Vice President</h4>
                         <blockquote>I am honored to serve as the Vice President of PCCOE AiMSA, and I

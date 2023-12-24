@@ -23,7 +23,7 @@ export default function Team() {
     const record_list = records.map((record, index) => (
         <button className="teamcard" key={index}>
             <span></span>
-            <img className="teamcardprofileimg" src={record[2]} alt={record[0]} />
+            <img className="teamcardprofileimg" src={record[2]} alt={record[0]} loading='lazy' />
             <h3>{record[0]}</h3>
             <h4>{record[1]}</h4>
             <article className='teamcard-links'>

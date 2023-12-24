@@ -17,7 +17,7 @@ export default function Events() {
     const events_list = events.map((card, index) => (
         <article key={index} className="event-card">
             <a href={card[1]} alt={card[0]} >
-                <img src={card[1]} alt={card[0]}></img>
+                <img src={card[1]} alt={card[0]} loading='lazy' ></img>
                 <p>{card[0]}</p>
             </a>
         </article>

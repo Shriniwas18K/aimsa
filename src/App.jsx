@@ -25,8 +25,8 @@ export default function App() {
       </header>
       <nav id="menunavbar" className={toggle ? 'visible' : ''}>
         <section id="images">
-        <img src="./PCCOEnobg.png"/>
-        <img src="./AIMSAnobg.png" />
+        <img src="./PCCOEnobg.png" alt='pccoenobg'/>
+        <img src="./AIMSAnobg.png" alt='aimsanobg'/>
         </section>
         <button onClick={() => handleClick('HOME')}>
           HOME
