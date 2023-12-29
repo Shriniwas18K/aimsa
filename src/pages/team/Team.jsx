@@ -34,7 +34,7 @@ export default function Team() {
         </button>
     ));
     return (
-        <>
+        <>  <a href='https://team3daimsa.vercel.app/'><button id='veiw3d'>VEIW 3D</button></a>
             <section id="Team">
                 {record_list}
             </section>

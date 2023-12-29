@@ -1,5 +1,15 @@
 /* android css */
 @media screen and (max-width:580px) {
+    #veiw3d{
+        position: absolute;
+        top:3vh;right: 5vw;
+        height: 9vh;
+        width: 9vh;
+        border: none;outline: none;
+        border-radius: 100vh;
+        background:linear-gradient(to right bottom, darkblue,blue, dodgerblue);
+        color:white;
+    }
 #Team{
     display: flex;
     flex-flow: column wrap;
